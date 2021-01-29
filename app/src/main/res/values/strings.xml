@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AndroidERestaurant</string>
+    <string name="txtTitre">DroidRestaurant</string>
+    <string name="txtEntrees">Entrées</string>
+    <string name="txtPlats">Plats</string>
+    <string name="txtDesserts">Desserts</string>
+    <string name="txtDumas">Chef Dumas</string>
+</resources>
