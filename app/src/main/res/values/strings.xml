@@ -1,8 +1,22 @@
 <resources>
     <string name="app_name">AndroidERestaurant</string>
-    <string name="txtTitre">DroidRestaurant</string>
+    <string name="txtTitre">Chez Michel</string>
     <string name="txtEntrees">Entrées</string>
     <string name="txtPlats">Plats</string>
     <string name="txtDesserts">Desserts</string>
     <string name="txtDumas">Chef Dumas</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="total">Total</string>
+    <string name="basket_validation">Ajouté au panier!</string>
+    <string name="basket">Panier</string>
+    <string name="quantite">Quantité</string>
+    <string name="commande">Finaliser la commande</string>
+    <string name="registrationTitle">Création de compte</string>
+    <string name="firstname">Prénom</string>
+    <string name="lastname">Nom</string>
+    <string name="email">Email</string>
+    <string name="password">Mot de passe</string>
+    <string name="register">Créer votre compte!</string>
+    <string name="login">Se connecter</string>
+
 </resources>

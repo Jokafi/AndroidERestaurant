@@ -2,14 +2,22 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="fr.isen.herbault">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AndroidERestaurant">
-        <activity android:name=".ListActivity"></activity>
+        android:theme="@style/Theme.AndroidERestaurant"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".inscription.UserActivity"></activity>
+        <activity android:name=".panier.BasketActivity" />
+        <activity android:name=".BaseActivity" />
+        <activity android:name=".category.CategoryActivity" />
+        <activity android:name=".detail.DetailActivity" />
         <activity android:name=".HomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
